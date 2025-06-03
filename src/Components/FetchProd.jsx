@@ -34,7 +34,7 @@ const FetchProd = () => {
             //     </li>
             //   </ul>
 
-            <Cards prod={prod} />
+            <Cards key={prod.id} prod={prod} />
           );
         })}
       </div>
